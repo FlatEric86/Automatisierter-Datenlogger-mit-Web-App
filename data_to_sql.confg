@@ -1,0 +1,45 @@
+// CONFIG FILE
+~~~~~~~~~~~~~~
+
+
+// For comments use "//" at begin of a line
+
+
+// Keep upercase written words (They are import keywords)
+// and do only change their values after "="
+
+
+// Define in SELECTION between the brakets the parameternames of parameters
+// which should be puted into the SQL Database.
+// Please note, the param names in this config file are keywords.
+// That means, that they have to be written correctly like they occour header
+// of the gauge record file file.
+
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+HOST    = localhost
+USER    = root
+PWD     = ATB_sql_admin
+DB_NAME = dummerstorf
+
+
+SELECTION = [
+H2O
+CO2
+N2O
+NH3
+CH4
+Cetan
+Ethanol
+Formaldehyd
+Acetaldehyd
+Aceton
+Ameisensäure
+Essigsäure
+Milchsäure
+Status
+]
